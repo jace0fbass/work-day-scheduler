@@ -2,16 +2,16 @@ var currentDay = $("currentDay")
 console.log("currentDay")
 
 
-// WHEN I view the timeblocks for that day
-// THEN each timeblock is color coded to indicate whether it is in the past, present, or future
+// WHEN I open the planner
+// THEN the current day is displayed at the top of the calendar
 
     // Need function to display current month, day, and year moment().format("MMMM Do YYYY"); 
     // Do I need to use #npm?
     // Can I add "dddd" to ("MMMM Do YYYY") to display "Saturday October 1st 2022" ?
 
 
-// WHEN I open the planner
-// THEN the current day is displayed at the top of the calendar
+// WHEN I view the timeblocks for that day
+// THEN each timeblock is color coded to indicate whether it is in the past, present, or future
 
     // Need function for current time and connect to color coding in CSS (past, present, future).
 
