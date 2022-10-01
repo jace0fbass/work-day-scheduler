@@ -1,13 +1,8 @@
-
- 
-
 // get current day
-var currentDay = $("currentDay").moment().format("MMM Do YY");
+var currentDay = $("currentDay")
 console.log("currentDay")
 
-// Need function to save entered 
-
-
+// Need function to save entered info
 
 
 
