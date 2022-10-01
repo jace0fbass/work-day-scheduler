@@ -2,6 +2,10 @@
 var currentDay = $("currentDay")
 console.log("currentDay")
 
+// Need function to display current month, day, and year moment().format("MMMM Do YYYY"); 
+    // Do I need to use #npm?
+    // Can I add "dddd" to ("MMMM Do YYYY") to display "Saturday October 1st 2022" ?
+
 // Need function to save entered info.
 
 // Need function for current time and connect to color coding in CSS (past, present, future).
