@@ -11,22 +11,28 @@ console.log("currentDay")
 // Need function for current time and connect to color coding in CSS (past, present, future).
 
 // Get saved info. 
-$("#hour8 .description").val(localStorage.getItem("hour8"));
-$("#hour9 .description").val(localStorage.getItem("hour9"));
-$("#hour10 .description").val(localStorage.getItem("hour10"));
-$("#hour11 .description").val(localStorage.getItem("hour11"));
-$("#hour12 .description").val(localStorage.getItem("hour12"));
-$("#hour13 .description").val(localStorage.getItem("hour13"));
-$("#hour14 .description").val(localStorage.getItem("hour14"));
-$("#hour15 .description").val(localStorage.getItem("hour15"));
-$("#hour16 .description").val(localStorage.getItem("hours16"));
-$("#hour17 .description").val(localStorage.getItem("hour17"));
+$("#input-8").val(localStorage.getItem("calendar-hour8"));
+$("#input-9").val(localStorage.getItem("calendar-hour9"));
+$("#input-10").val(localStorage.getItem("calendar-hour10"));
+$("#input-11").val(localStorage.getItem("calendar-hour9"));
+$("#input-12").val(localStorage.getItem("calendar-hour9"));
+$("#input-13").val(localStorage.getItem("calendar-hour9"));
+$("#input-14").val(localStorage.getItem("calendar-hour9"));
+$("#input-15").val(localStorage.getItem("calendar-hour9"));
+$("#input-16").val(localStorage.getItem("calendar-hour9"));
+
  
 // Need to call the stored results when page is reloaded.
 
+$("#saveBtn8").click(function(){
+    var value8 = $("#input-8").val();
+    localStorage.setItem("calendar-hour8", value8);
+});
 
-
-
+$("#saveBtn9").click(function(){
+    var value9 = $("#input-9").val();
+    localStorage.setItem("calendar-hour9", value9);
+});
 
 
 
