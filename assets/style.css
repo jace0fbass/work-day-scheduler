@@ -8,7 +8,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
-  background-color: linear-gradient(rgb(234, 238, 238), white);
+  background-image: linear-gradient(rgba(236, 209, 174, 0.507), white);
 }
 
 textarea {
@@ -77,17 +77,17 @@ footer {
 }
 
 .past {
-  background-color: rgba(28, 54, 77, 0.514);
+  background-color: rgba(28, 54, 77, 0.438);
   color: var(--mainColor);
 }
 
 .present {
-  background-color: #8be3f3c9;
+  background-color: #4abacebb;
   color: var(--secondaryColor);
 }
 
 .future {
-  background-color: rgb(217, 247, 255);
+  background-color: rgb(191, 233, 245);
   color: var(--secondaryColor);
 }
 
