@@ -132,7 +132,7 @@ footer {
 }
 
 #currentTime {
-  font-size: 100px;
+  font-size: 80px;
   color: var(--mainColor);
   font-weight: bolder;
 }
