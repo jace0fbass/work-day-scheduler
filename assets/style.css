@@ -33,6 +33,9 @@ footer {
   border-radius: 0;
   border-bottom: 10px solid var(--secondaryColor);
   background-image: linear-gradient(var(--mainColor), var(--popColor));
+  border-color: rgb(34, 51, 66);
+  margin-bottom: 30px;
+  padding-bottom: 10px;
 }
 
 .lead {
@@ -63,6 +66,8 @@ footer {
   background-color: rgb(206, 206, 206);
   color: var(--secondaryColor);
   border-top: 1px dashed var(--secondaryColor);
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
   padding: 10px;
   display: flex;
   align-items: center;
