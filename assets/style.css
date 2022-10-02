@@ -39,7 +39,7 @@ footer {
 }
 
 .lead {
-  color: var(--mainColor);
+  color: rgb(34, 57, 77);
   font-style: italic;
   font-weight: 900;
 }
