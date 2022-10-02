@@ -10,7 +10,7 @@ console.log(currentTime.format("LT"));
 
 // Need to connect current time color coding in CSS (past, present, future).
 var currentHour = JSON.parse(moment().format("H"))
-for (let i = 5; i < 20; i++) {
+for (let i = 8; i < 18; i++) {
     var row = JSON.parse(document.getElementById(i).getAttribute("id"));
     if (row === currentHour) {
         document.getElementById("input-" + i).classList.add("present")
@@ -22,21 +22,6 @@ for (let i = 5; i < 20; i++) {
 }
 
 // Save the saved user data to the local storage so it's there when page is reloaded.
-$("#saveBtn5").click(function () {
-    var value5 = $("#input-5").val();
-    localStorage.setItem("calendar-hour5", value5);
-});
-
-$("#saveBtn6").click(function () {
-    var value6 = $("#input-6").val();
-    localStorage.setItem("calendar-hour6", value6);
-});
-
-$("#saveBtn7").click(function () {
-    var value7 = $("#input-7").val();
-    localStorage.setItem("calendar-hour7", value7);
-});
-
 $("#saveBtn8").click(function () {
     var value8 = $("#input-8").val();
     localStorage.setItem("calendar-hour8", value8);
@@ -87,21 +72,7 @@ $("#saveBtn17").click(function () {
     localStorage.setItem("calendar-hour17", value17);
 });
 
-$("#saveBtn18").click(function () {
-    var value18 = $("#input-18").val();
-    localStorage.setItem("calendar-hour18", value18);
-});
-
-$("#saveBtn19").click(function () {
-    var value19 = $("#input-19").val();
-    localStorage.setItem("calendar-hour19", value19);
-});
-console.log("data set");
-
 // Get saved data. 
-$("#input-5").val(localStorage.getItem("calendar-hour5"));
-$("#input-6").val(localStorage.getItem("calendar-hour6"));
-$("#input-7").val(localStorage.getItem("calendar-hour7"));
 $("#input-8").val(localStorage.getItem("calendar-hour8"));
 $("#input-9").val(localStorage.getItem("calendar-hour9"));
 $("#input-10").val(localStorage.getItem("calendar-hour10"));
