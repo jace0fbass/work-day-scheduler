@@ -8,7 +8,7 @@ console.log(currentDay.format("dddd MMMM Do, YYYY"));
 // WHEN I view the timeblocks for that day
 // THEN each timeblock is color coded to indicate whether it is in the past, present, or future
 
-// Need function for current time and connect to color coding in CSS (past, present, future).
+    // Need function for current time and connect to color coding in CSS (past, present, future).
 
 
 
@@ -88,7 +88,7 @@ $("#saveBtn19").click(function () {
     var value19 = $("#input-19").val();
     localStorage.setItem("calendar-hour19", value19);
 });
-console.log("items set");
+console.log("data set");
 
 // Get saved info. 
 $("#input-5").val(localStorage.getItem("calendar-hour5"));
@@ -106,5 +106,5 @@ $("#input-16").val(localStorage.getItem("calendar-hour16"));
 $("#input-17").val(localStorage.getItem("calendar-hour17"));
 $("#input-18").val(localStorage.getItem("calendar-hour18"));
 $("#input-19").val(localStorage.getItem("calendar-hour19"));
-console.log("items called");
+console.log("data called");
 
