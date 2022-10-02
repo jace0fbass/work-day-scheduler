@@ -77,18 +77,18 @@ footer {
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: rgba(28, 54, 77, 0.514);
   color: var(--mainColor);
 }
 
 .present {
-  background-color: #ff6961;
-  color: var(--mainColor);
+  background-color: #8be3f3c9;
+  color: var(--secondaryColor);
 }
 
 .future {
-  background-color: #77dd77;
-  color: var(--mainColor);
+  background-color: rgb(217, 247, 255);
+  color: var(--secondaryColor);
 }
 
 .saveBtn {
