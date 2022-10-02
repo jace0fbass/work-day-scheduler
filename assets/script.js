@@ -5,8 +5,8 @@ console.log(currentDay.format("dddd MMMM Do, YYYY"));
 
 // Get current time data.
 var currentTime = moment();
-$("#currentTime").text(currentTime.format('LT'));
-console.log(currentTime.format('LT'));
+$("#currentTime").text(currentTime.format("LT"));
+console.log(currentTime.format("LT"));
 
 
 // WHEN I view the timeblocks for that day
