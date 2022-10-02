@@ -12,7 +12,7 @@ In this challenge I have created html elements for provided css elements and wro
 
 ## Screenshot
 
-<img src="assets\Screenshot 2022-10-02 101631.jpg" alt="An image of my work day scheduler."/>
+<img src="assets\newScreenshot.jpg" alt="An image of my work day scheduler." />
 
 
 ## Your Task
