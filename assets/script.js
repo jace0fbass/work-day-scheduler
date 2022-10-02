@@ -1,13 +1,8 @@
-var currentDay = $("currentDay")
-console.log("currentDay")
+var currentDay = moment();
+$("#currentDay").text(currentDay.format("dddd MMMM Do, YYYY"));
+console.log("currentDay");
 
 
-// WHEN I open the planner
-// THEN the current day is displayed at the top of the calendar
-
-    // Need function to display current month, day, and year moment().format("MMMM Do YYYY"); 
-    // Do I need to use #npm?
-    // Can I add "dddd" to ("MMMM Do YYYY") to display "Saturday October 1st 2022" ?
 
 
 // WHEN I view the timeblocks for that day
@@ -19,6 +14,21 @@ console.log("currentDay")
 
 
 // Save the saved user info to the local storage so it's there when page is reloaded.
+$("#saveBtn5").click(function(){
+    var value5 = $("#input-5").val();
+    localStorage.setItem("calendar-hour5", value5);
+});
+
+$("#saveBtn6").click(function(){
+    var value6 = $("#input-6").val();
+    localStorage.setItem("calendar-hour6", value6);
+});
+
+$("#saveBtn7").click(function(){
+    var value7 = $("#input-7").val();
+    localStorage.setItem("calendar-hour7", value7);
+});
+
 $("#saveBtn8").click(function(){
     var value8 = $("#input-8").val();
     localStorage.setItem("calendar-hour8", value8);
@@ -69,7 +79,53 @@ $("#saveBtn17").click(function(){
     localStorage.setItem("calendar-hour17", value17);
 });
 
+$("#saveBtn18").click(function(){
+    var value18 = $("#input-18").val();
+    localStorage.setItem("calendar-hour18", value18);
+});
+
+$("#saveBtn19").click(function(){
+    var value19 = $("#input-19").val();
+    localStorage.setItem("calendar-hour19", value19);
+});
+
+$("#saveBtn20").click(function(){
+    var value20 = $("#input-20").val();
+    localStorage.setItem("calendar-hour20", value20);
+});
+
+$("#saveBtn21").click(function(){
+    var value21 = $("#input-21").val();
+    localStorage.setItem("calendar-hour21", value21);
+});
+
+$("#saveBtn22").click(function(){
+    var value22 = $("#input-22").val();
+    localStorage.setItem("calendar-hour22", value22);
+});
+
+$("#saveBtn23").click(function(){
+    var value23 = $("#input-23").val();
+    localStorage.setItem("calendar-hour23", value23);
+});
+
+$("#saveBtn24").click(function(){
+    var value24 = $("#input-24").val();
+    localStorage.setItem("calendar-hour24", value24);
+});
+
+
+
+
+console.log("items set");
 // Get saved info. 
+$("#input-1").val(localStorage.getItem("calendar-hour1"));
+$("#input-2").val(localStorage.getItem("calendar-hour2"));
+$("#input-3").val(localStorage.getItem("calendar-hour3"));
+$("#input-4").val(localStorage.getItem("calendar-hour4"));
+$("#input-5").val(localStorage.getItem("calendar-hour5"));
+$("#input-6").val(localStorage.getItem("calendar-hour6"));
+$("#input-7").val(localStorage.getItem("calendar-hour7"));
 $("#input-8").val(localStorage.getItem("calendar-hour8"));
 $("#input-9").val(localStorage.getItem("calendar-hour9"));
 $("#input-10").val(localStorage.getItem("calendar-hour10"));
@@ -80,5 +136,15 @@ $("#input-14").val(localStorage.getItem("calendar-hour14"));
 $("#input-15").val(localStorage.getItem("calendar-hour15"));
 $("#input-16").val(localStorage.getItem("calendar-hour16"));
 $("#input-17").val(localStorage.getItem("calendar-hour17"));
+$("#input-18").val(localStorage.getItem("calendar-hour18"));
+$("#input-19").val(localStorage.getItem("calendar-hour19"));
+$("#input-").val(localStorage.getItem("calendar-hour"));
+$("#input-").val(localStorage.getItem("calendar-hour"));
+$("#input-").val(localStorage.getItem("calendar-hour"));
+$("#input-").val(localStorage.getItem("calendar-hour"));
+$("#input-").val(localStorage.getItem("calendar-hour"));
 
+
+
+console.log("items called");
 
