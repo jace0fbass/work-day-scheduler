@@ -8,12 +8,18 @@ var currentTime = moment();
 $("#currentTime").text(currentTime.format("LT"));
 console.log(currentTime.format("LT"));
 
-
-// WHEN I view the timeblocks for that day
-// THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-
-    // Need to connect current time color coding in CSS (past, present, future).
-
+// Need to connect current time color coding in CSS (past, present, future).
+var currentHour = JSON.parse(moment().format("H"))
+for (let i = 5; i < 20; i++) {
+    var row = JSON.parse(document.getElementById(i).getAttribute("id"));
+    if (row === currentHour) {
+        document.getElementById("input-" + i).classList.add("present")
+    } else if (row < currentHour) {
+        document.getElementById("input-" + i).classList.add("past")
+    } else {
+        document.getElementById("input-" + i).classList.add("future")
+    }
+}
 
 // Save the saved user data to the local storage so it's there when page is reloaded.
 $("#saveBtn5").click(function () {

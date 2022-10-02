@@ -26,6 +26,7 @@ textarea {
 footer {
   text-align: center;
   color: var(--secondaryColor);
+  margin-top: 20px;
 }
 
 .jumbotron {
@@ -109,6 +110,7 @@ footer {
   flex-direction: row;
   justify-content: center;
   flex-direction: row;
+  padding-bottom: 3px;
 }
 
 .display-3 {
@@ -116,9 +118,6 @@ footer {
 }
 
 
-#hour5, #hour6, #hour7, #hour8, #hour9, #hour10, #hour11, #hour12, #hour13, #hour14, #hour15, #hour16, #hour17, #hour18 {
-  padding-bottom: 3px;
-}
 
 #hour19 {
   padding-bottom: 40px;
@@ -132,7 +131,7 @@ footer {
 }
 
 #currentTime {
-  font-size: 80px;
+  font-size: px;
   color: var(--mainColor);
   font-weight: bolder;
 }
