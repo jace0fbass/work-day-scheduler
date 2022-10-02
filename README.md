@@ -1,8 +1,5 @@
 # 05 Third-Party APIs: Work Day Scheduler
 
----- NEED SCREENSHOT. NEED CURRENT TIME LINKED TO CSS STYLING ON TIME-BLOCK(S). ----
-
-
 ## Deployed Link
 
 https://jace0fbass.github.io/work-day-scheduler/
@@ -10,12 +7,12 @@ https://jace0fbass.github.io/work-day-scheduler/
 
 ## Decription
 
-In this challenge I have created html elements for provided css elements and wrote the javascript to make the work day scheduler function. I have also cleaned up the stlye.css file to save time in potential later rebranding. I have used moment.js to display the current date and time. I have used jquery to store user input into local storage and also return the information after refreshing the page. I have given relevence to the time elements in the style.css file that relate to past, current, and future times. 
+In this challenge I have created html elements for provided css elements and wrote the javascript to make the work day scheduler function. I have also cleaned up the stlye.css file to save time in potential later rebranding. I have used moment.js to display the current date and time. I have used jquery to store user input into local storage and also return the information after refreshing the page. I have given relevence to the time elements in the style.css file that relate to past, current, and future times. I have used loops and conditional statements to determine if an hour is past, present, or future and gave time-blocks css styling based on the results.
 
 
 ## Screenshot
 
-<img src="" alt="An image of my work day scheduler."/>
+<img src="assets\Screenshot 2022-10-02 101631.jpg" alt="An image of my work day scheduler."/>
 
 
 ## Your Task
