@@ -1,18 +1,21 @@
+// Get current day data.
 var currentDay = moment();
 $("#currentDay").text(currentDay.format("dddd MMMM Do, YYYY"));
 console.log(currentDay.format("dddd MMMM Do, YYYY"));
 
+// Get current time data.
 var currentTime = moment();
 $("#currentTime").text(currentTime.format('LT'));
-console.log(currentTime.format('LT'))
+console.log(currentTime.format('LT'));
+
 
 // WHEN I view the timeblocks for that day
 // THEN each timeblock is color coded to indicate whether it is in the past, present, or future
 
-    // Need function for current time and connect to color coding in CSS (past, present, future).
+    // Need to connect current time color coding in CSS (past, present, future).
 
 
-// Save the saved user info to the local storage so it's there when page is reloaded.
+// Save the saved user data to the local storage so it's there when page is reloaded.
 $("#saveBtn5").click(function () {
     var value5 = $("#input-5").val();
     localStorage.setItem("calendar-hour5", value5);
@@ -89,7 +92,7 @@ $("#saveBtn19").click(function () {
 });
 console.log("data set");
 
-// Get saved info. 
+// Get saved data. 
 $("#input-5").val(localStorage.getItem("calendar-hour5"));
 $("#input-6").val(localStorage.getItem("calendar-hour6"));
 $("#input-7").val(localStorage.getItem("calendar-hour7"));
