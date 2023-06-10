@@ -1,0 +1,134 @@
+/*!*********************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/css/style.css ***!
+  \*********************************************************************/
+:root {
+  --mainColor: white;
+  --secondaryColor: black;
+  --popColor: #06aed5;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  background-image: linear-gradient(rgba(236, 209, 174, 0.507), white);
+}
+
+textarea {
+  background: rgb(217, 247, 255);
+  border: none;
+  resize: none;
+  color: var(--secondaryColor);
+  border-left: 1px solid var(--secondaryColor);
+  padding: 10px;
+  margin-right: 2px;
+  padding-left: 2px;
+  font-weight: 600;
+}
+
+footer {
+  text-align: center;
+  color: var(--secondaryColor);
+  margin-top: 20px;
+}
+
+.jumbotron {
+  text-align: center;
+  color: var(--secondaryColor);
+  border-radius: 0;
+  border-bottom: 10px solid var(--secondaryColor);
+  background-image: linear-gradient(var(--mainColor), var(--popColor));
+  border-color: rgb(34, 51, 66);
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+}
+
+.lead {
+  color: rgb(34, 57, 77);
+  font-style: italic;
+  font-weight: 900;
+}
+
+.description {
+  white-space: pre-wrap;
+}
+
+.time-block {
+  text-align: center;
+  border-radius: 15px, 0px, 0px, 15px;
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid var(--mainColor);
+}
+
+.hour {
+  background-color: rgb(206, 206, 206);
+  color: var(--secondaryColor);
+  border-top: 1px dashed var(--secondaryColor);
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  font-weight: 900;
+}
+
+.past {
+  background-color: rgba(28, 54, 77, 0.438);
+  color: var(--mainColor);
+}
+
+.present {
+  background-color: #4abacebb;
+  color: var(--secondaryColor);
+}
+
+.future {
+  background-color: rgb(191, 233, 245);
+  color: var(--secondaryColor);
+}
+
+.saveBtn {
+  border-left: 1px solid var(--secondaryColor);
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: var(--popColor);
+  color: var(--mainColor);
+  font-weight: 900;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.hour-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-direction: row;
+  padding-bottom: 3px;
+}
+
+.display-3 {
+  font-weight: 900;
+}
+
+#currentDay {
+  font-size: 60px;
+  font-weight: 900;
+  color: var(--mainColor);
+  font-style: normal;
+}
+
+#currentTime {
+  font-size: px;
+  color: var(--mainColor);
+  font-weight: bolder;
+}
