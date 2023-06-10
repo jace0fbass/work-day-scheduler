@@ -1,3 +1,6 @@
+import '../css/style.css'
+
+
 // Get current day data.
 let currentDay = moment();
 $("#currentDay").text(currentDay.format("dddd MMMM Do, YYYY"));
